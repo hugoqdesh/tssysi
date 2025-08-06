@@ -1,0 +1,27 @@
+{
+	"name": "tssysi",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/index.js",
+	"type": "module",
+	"scripts": {
+		"start": "node dist/index.js",
+		"build": "tsc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hugoqdesh/tssysi.git"
+	},
+	"keywords": [],
+	"bin": "dist/index.js",
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/hugoqdesh/tssysi/issues"
+	},
+	"homepage": "https://github.com/hugoqdesh/tssysi#readme",
+	"dependencies": {
+		"systeminformation": "^5.27.7"
+	}
+}
